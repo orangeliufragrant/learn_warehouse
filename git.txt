@@ -15,6 +15,10 @@ $ git init
 $ git add xxx.xxx
 $ git commit -m "xxxxx"
  git add . 添加所有的文件， 或者 git add --all 添加所有的文件 git add -A .
+添加指定目录下的文件
+config目录下及子目录下所有文件，home目录下的所有.php文件
+git config/*
+git home/*.php
 6.修改文件
 运行git status命令看看结果
 $ git status
