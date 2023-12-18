@@ -1,5 +1,6 @@
 参考 https://www.liaoxuefeng.com/wiki/896043488029600/896954074659008
 git ：https://hub.yzuu.cf/
+react脚手架：npm install -g create-react-app
 1.安装git
 2.设置user
 $ git config --global user.name "Your Name"
