@@ -14,4 +14,7 @@
 
 <style>
 	/*每个页面公共css */
+	body{
+		background: rgba(128, 128, 128, 0.2);
+	}
 </style>

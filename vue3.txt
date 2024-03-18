@@ -1,0 +1,6 @@
+1.创建vite +vue3 
+npm create vue@latest
+2.安装vite扩展
+npm i vite-plugin-vue-setup-extend -D
+在vite.config.ts 中引入vite-plugin-vue-setup-extend 
+3.reactive定义的响应式对象不能直接修改，可以使用Object.assign(要修改的对象,替换的数据1,替换的数据2,...)
