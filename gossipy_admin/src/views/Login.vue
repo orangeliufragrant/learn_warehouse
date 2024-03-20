@@ -14,10 +14,12 @@ import { useRouter } from 'vue-router'
 import { useLoginStore } from '@/store/Login'
 import { ref } from 'vue';
 import { storeToRefs } from 'pinia'
+import Per from '@/types/classPerson'
 
 const router = useRouter();
 const loginStore = useLoginStore()
 console.log(loginStore)
+console.log(Per)
 
 let ces = ref('小天')
 //可以使用storeToRefs来获取store里面的响应式数据
